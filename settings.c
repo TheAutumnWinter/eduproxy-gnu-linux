@@ -12,6 +12,7 @@ void main()
 	printf("\nok, so %s is the network then?\n", network);
 	FILE *settings1; 
 	settings1 = fopen("settings1", "w+");
-//	FILE* settings2 = fopen("settings2", "W");
+	FILE* settings2 = fopen("settings2", "w+");
 	fprintf(settings1, "%s", network);
+	fprintf(settings2, "eduproxy:8080");
 }
