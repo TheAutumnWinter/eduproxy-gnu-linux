@@ -1,3 +1,6 @@
+(GCC IS REQUIRED TO BE INSTALLED)
+
+
 Keep in mind this has only been tested for arch linux
 
 To install run "git clone https://github.com/TheAutumnWinter/eduproxy-gnu-linux.git"
