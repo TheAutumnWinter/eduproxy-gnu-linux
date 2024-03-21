@@ -10,3 +10,6 @@ then run "cd eduproxy-gnu-linux"
 then run "./install.sh"
 
 answer all the prompts and your good to go
+
+
+(if deleting or reinstalling program delete the eduproxy-gnu-linux line in .bashrc)
