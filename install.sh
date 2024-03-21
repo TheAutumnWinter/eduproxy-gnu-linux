@@ -1,2 +1,4 @@
 echo "compiling program"
-gcc main.c
+gcc settings.c -o surveyproxy
+./surveyproxy
+gcc main.c -o eduproxy-gnu-linux
