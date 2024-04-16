@@ -36,6 +36,7 @@ void main()
 	//	putenv("http_proxy='eduproxy:8080'");
 	//	putenv("https_proxy='eduproxy:8080'");
 		fprintf(runafter, settings2char);
+		printf("\nproxy set\n");
 	}
 	if(strcmp(commandchar, settings1char) != 0)
 	{
