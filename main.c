@@ -32,13 +32,17 @@ void main()
 	strcpy(settings2char, fgets(buff3, 100, settings2));
 	if(strcmp(commandchar, settings1char) == 0)
 	{
-		FILE *runafter = fopen(home3, "w+");
+		printf("\nproxy set\n");
+	//	FILE *runafter = fopen(home3, "w+");
 	//	putenv("http_proxy='eduproxy:8080'");
 	//	putenv("https_proxy='eduproxy:8080'");
-		fprintf(runafter, settings2char);
-		printf("\nproxy set\n");
+	//	fprintf(runafter, settings2char);
+	//	fprintf(runafter, settings2char);
+		//system("rm ~/.EDUPROXY/run.sh");
+		system("cp ~/.EDUPROXY/settings2 ~/.EDUPROXY/run.sh");
+		system("chmod 777 ~/.EDUPROXY/run.sh");
 	}
-	if(strcmp(commandchar, settings1char) != 0)
+	else
 	{
 		FILE *runafter = fopen(home3, "w+");	
 	}
