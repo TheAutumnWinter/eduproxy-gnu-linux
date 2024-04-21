@@ -1,4 +1,9 @@
-(CURRENTLY NON FUNCTIONAL)
+This program is designed to make running internet related commands work better at schools with proxies required. This can easily be changed to work for other proxies, 
+when running a command that requires sudo remember to add "-E" after sudo so that the proxy is also applied to the command
+
+
+
+
 
 
 (GCC IS REQUIRED TO BE INSTALLED)
