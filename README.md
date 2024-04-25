@@ -15,6 +15,8 @@ To install run "git clone https://github.com/TheAutumnWinter/eduproxy-gnu-linux.
 
 then run "cd eduproxy-gnu-linux"
 
+then run "chmod 777 install.sh"
+
 then run while connected to your schools network"./install.sh"
 
 
